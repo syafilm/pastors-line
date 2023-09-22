@@ -1,0 +1,45 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+html, body{
+  color: #000;
+  background: #fff;
+  height: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.btn-custom-a{
+  color: #fff;
+  background: #46139f;
+  border: 1px solid #46139f;
+  &:hover, &:focus{
+    color: #fff;
+    background: #46139f;
+    border: 1px solid #46139f;
+  }
+}
+
+.btn-custom-b{
+  background:  #ff7f50;
+  color:  #fff;
+  border: 1px solid #ff7f50;
+  &:hover, &:focus{
+    background:  #ff7f50;
+    color:  #fff;
+    border: 1px solid #ff7f50;
+  }
+}
+
+.btn-custom-c{
+  background: #fff;
+  color: #46139f;
+  border: 1px solid #46139f;
+  &:hover, &:focus{
+    background: #fff;
+    color: #46139f;
+    border: 1px solid #46139f;
+  }
+}
+
+#root{
+  height: 100%;
+}
